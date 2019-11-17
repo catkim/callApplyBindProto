@@ -56,7 +56,7 @@ console.dir(specialPie);
 
 //if you look at the last object in the console log (specialPie) you will see it has three properies with values and another object called __proto__ and it has a bunch of built in methods.
 
-//let's create another pie objects
+//let's create another pie object
  let extraSpecialPie = {}
 
  //instead of using call or apply let's use the handy setPrototypeOf method
@@ -97,3 +97,9 @@ let yum = eatPie.bind(specialPie);
 yum();
 
 //hope my explaination helped you understand call, apply bind and proto
+
+//links to videos:
+
+// https://www.youtube.com/watch?v=c0mLRpw-9rI  -- call apply bind - Techsith (this guy is great!)
+// https://www.youtube.com/watch?v=YkoelSTUy7A&t=1s -- Prototype basics - FunFunFunction - (he's great too)
+// https://www.youtube.com/watch?v=g2WcckBB_q0 -- Bind Explained in Javascript
